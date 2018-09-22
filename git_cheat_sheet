@@ -1,5 +1,10 @@
 # branch names reference
-feature --> develop --> release_candidate --> release --> hotfixes
+master (of everything)
+feature (for developing a new feature)
+develop (for consolidating different features)
+release_candidate (candidate for release)
+release (version for releasing)
+hotfixes (bug fixing in progress)
 
 #Branched staging area:
 git checkout (Becareful: jump to a branch, AND DISCARD changes!!!)
