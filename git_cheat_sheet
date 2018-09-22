@@ -1,7 +1,7 @@
 # Repository (common for all locations)
 
-# Locations 
-origin (original site, default exists)
+# Remote(Location)
+origin (original location, default exists)
 
 # Branch names
 master (of everything, default exists)
@@ -12,9 +12,9 @@ release (version for releasing)
 hotfixes (bug fixing in progress)
 
 # Staging and branching
-git checkout [branch] (Becareful: jump to a branch, AND DISCARD changes!!!)
-git branch [branch] (make a new branch)
-git merge [branch] (merge a branch)
+git checkout {branch} [source_location/source_branch] (jump to a branch, AND DISCARD changes!!!)
+git branch {branch} (make a new branch)
+git merge {branch} (merge a branch)
 
 #Staging area:
 git add [file] (add a file to the commiting list)
@@ -28,4 +28,7 @@ git pull [location] [branch]
 
 # tagging
 git tag
+
+# Help
+git help [command]
 
