@@ -1,4 +1,21 @@
-git add
-git commit
+# branch names reference
+feature --> develop --> release_candidate --> release --> hotfixes
 
-# This line is modified by Leon at 12:17
+#Branched staging area:
+git checkout (Becareful: jump to a branch, AND DISCARD changes!!!)
+git branch (make a new branch)
+git merge (merge a branch)
+
+#Staging area:
+git add (add a file to the commiting list)
+git remove (remove a file from the committing list)
+git commit (commit all files in the commiting list to repository)
+(or "git commit -a" to commit all changes)
+
+#On stage:
+git push
+git pull
+
+# tagging
+git tag
+
